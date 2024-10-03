@@ -10,7 +10,7 @@ const devConfig = {
     historyApiFallback: {
       historyApiFallback: true,
       contentBase: "./",
-      hot: true,
+      hot: true, 
     },
   },
   plugins: [
