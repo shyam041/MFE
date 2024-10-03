@@ -7,11 +7,7 @@ const devConfig = {
   mode: "development",
   devServer: {
     port: 8080,
-    historyApiFallback: {
-      historyApiFallback: true,
-      contentBase: "./",
-      hot: true,
-    },
+    historyApiFallback: true,
   },
   plugins: [
     new ModuleFederationPlugin({
