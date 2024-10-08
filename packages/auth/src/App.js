@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  StylesProvider,
-  createGenerateClassName,
-} from "@material-ui/core/styles";
+import {StylesProvider,createGenerateClassName} from "@material-ui/core/styles";
 import { Switch, Route, Router } from "react-router-dom";
 
 import Signin from "./components/Signin";
